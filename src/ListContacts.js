@@ -37,7 +37,6 @@ class ListContacts extends Component {
 
     return (
       <div className='list-contacts'>
-        {JSON.stringify(this.state)}
         <div className='list-contacts-top'>
           <input className='search-contacts' type='text' placeholder='Search contacts' value={query} onChange={(event) => this.updateQuery(event.target.value)} />
         </div>
